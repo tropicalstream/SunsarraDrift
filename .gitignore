@@ -3,6 +3,8 @@
 local.properties
 .idea/
 .DS_Store
+__pycache__/
+*.pyc
 build/
 captures/
 # player music + keys are not committed
