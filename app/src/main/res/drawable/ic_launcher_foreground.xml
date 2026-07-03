@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- the Drift: swept dart ship banking hard -->
+    <path android:pathData="M30,66 L60,38 L78,46 L58,58 L64,72 L48,66 Z"
+        android:strokeColor="#4FE3D8" android:strokeWidth="3"
+        android:strokeLineJoin="round" />
+    <!-- engine wake -->
+    <path android:pathData="M30,66 Q18,74 12,84 M36,68 Q28,76 24,84"
+        android:strokeColor="#FF7A45" android:strokeWidth="2.4" android:strokeLineCap="round" />
+    <!-- targeting reticle -->
+    <path android:pathData="M74,30 m-9,0 a9,9 0 1,1 18,0 a9,9 0 1,1 -18,0"
+        android:strokeColor="#FF3B6E" android:strokeWidth="2" />
+    <path android:pathData="M74,18 v6 M74,36 v6 M62,30 h6 M80,30 h6"
+        android:strokeColor="#FF3B6E" android:strokeWidth="2" android:strokeLineCap="round" />
+    <path android:fillColor="#FFFFFF" android:pathData="M74,30 m-1.6,0 a1.6,1.6 0 1,1 3.2,0 a1.6,1.6 0 1,1 -3.2,0" />
+</vector>

@@ -1,0 +1,10 @@
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+# player music + keys are not committed
+app/src/main/assets/music/*.mp3
+app/tools/fish.config
