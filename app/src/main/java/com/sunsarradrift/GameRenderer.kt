@@ -370,9 +370,9 @@ class GameRenderer(
         // captions (voice) — always available
         if (Game.subtitlesOn && (voice.speaking || now < voice.lineEndsAt) && Game.caption.isNotBlank()) {
             speakerText.setText(Game.captionSpeaker, backingBar = false)
-            speakerText.draw(par, -0.60f, 0.055f, eyeAspect, 0.95f)
+            speakerText.draw(par, -0.54f, 0.11f, eyeAspect, 0.95f)
             captionText.setText(Game.caption, backingBar = true)
-            captionText.draw(par, -0.80f, 0.16f, eyeAspect, 0.95f)
+            captionText.draw(par, -0.72f, 0.32f, eyeAspect, 0.95f)
         }
         if (now < Game.messageUntil && Game.message.isNotBlank()) {
             msgText.setText(Game.message, backingBar = true)
@@ -389,7 +389,7 @@ class GameRenderer(
                 val lyr = cinematic.lyric(tSong)
                 if (lyr.isNotBlank()) {
                     captionText.setText("♪ $lyr ♪", backingBar = false)
-                    captionText.draw(par, -0.62f, 0.11f, eyeAspect, 0.95f)
+                    captionText.draw(par, -0.54f, 0.22f, eyeAspect, 0.95f)
                 }
                 val ca = cinematic.state.cardAlpha
                 cardText.setText("▶ MISSION ${Game.missionIdx + 1}/${Campaign.missions.size}: ${m.title} · ${roleName(m.role)}\nSWIPE: MISSION · TAP: LAUNCH · DOUBLE-TAP: SETTINGS", backingBar = true)
