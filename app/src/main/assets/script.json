@@ -1,0 +1,332 @@
+{
+ "lines": {
+  "m01_in1": {
+   "s": "TERN",
+   "t": "[calm ship AI, measured urgency] Contact alarm. Selector interceptors are burning through Freeport's traffic lanes. They are scanning residence rings — name-search: Vex."
+  },
+  "m01_in2": {
+   "s": "SUN",
+   "t": "[young, furious, voice shaking then hardening] They took my mother, Yu. They came into our home with clean gloves and a warrant that called her genes 'evidence'. [steel] Turret's mine."
+  },
+  "m01_in3": {
+   "s": "YU",
+   "t": "[warm Chinese-accented mechanic, urgent but grounded] Then make it count, xiǎo Sun. Guns are hot, pods are launching. Cover the refugees first — rage second, people first. Always people first."
+  },
+  "m01_out1": {
+   "s": "YU",
+   "t": "[gentle, over cooling fans] Every pod made it. You hear me? Every single one. [beat] Rage is fuel, Sunsarra. It is not a compass. Tonight you steered anyway."
+  },
+  "m01_out2": {
+   "s": "SUN",
+   "t": "[breathing hard, quieter] They called the pods 'defective stock' on an open channel, Yu. People. Stock. [resolve clicking into place] We're getting her back. And then we're burning that word out of the sky."
+  },
+  "m02_in1": {
+   "s": "TERN",
+   "t": "[precise] Your mother's cache signature is live in the Mare Crisium relay canyon. One lance-class pursuer holds station above the rim. Pursuit is certain."
+  },
+  "m02_in2": {
+   "s": "SUN",
+   "t": "[focused, whispering to herself] Okay, Mom. You flew this trench with me in a simulator when I was nine. [half-smile] You said: small corrections, brave heart. Marker one, here we go."
+  },
+  "m02_out1": {
+   "s": "ADA",
+   "t": "[rich Nigerian-accented voice, first meeting — breathless, rescued] So you're Maren Vex's daughter. I was her colleague — Adaeze Obi, evolutionary biology. They burned my lab the same night they took her. [fierce] Her data survived. So did I. Both of those are problems for the Empire."
+  },
+  "m02_out2": {
+   "s": "SUN",
+   "t": "[wary hope] She talked about you. Said you could out-argue a warship. [beat] Welcome aboard the Drift, Doctor."
+  },
+  "m02_out3": {
+   "s": "ADA",
+   "t": "[dry, buckling in] Out-arguing warships is exactly the plan, child. Their whole creed is a arithmetic error wearing a uniform. We are going to show our work."
+  },
+  "m03_in1": {
+   "s": "TERN",
+   "t": "[flat urgency] Freighter KESTREL: two hundred souls, cascading failures. Oxygen curve unfavorable. They requested anyone. We are anyone."
+  },
+  "m03_in2": {
+   "s": "YU",
+   "t": "[rolling up sleeves, calm mastery] Listen to her groan — that's not dying, that's asking. Coolant first, then the pumps, fuel across on my mark. [soft] My grandmother rebuilt Luna dome seals with kitchen tools. We have better tools."
+  },
+  "m03_in3": {
+   "s": "ADA",
+   "t": "[steady, teaching under pressure] And Sunsarra — the Empire would call that ship 'not worth the delta-v'. Remember tonight what a spreadsheet can't measure."
+  },
+  "m03_out1": {
+   "s": "SUN",
+   "t": "[exhausted, wonder creeping in] Two hundred people breathing because we stayed. [beat] That's the whole argument, isn't it? Right there."
+  },
+  "m03_out2": {
+   "s": "ADA",
+   "t": "[warm] That's the whole argument. Value isn't bred, child. It shows up wherever life gets a chance to vary, and it looks like THIS."
+  },
+  "m04_in1": {
+   "s": "TERN",
+   "t": "[urgent] Venus cloud-cities evacuating. Liner VESPER GLASS carries four thousand — the Empire flags her manifest 'genetically unproductive'. Raider wings inbound."
+  },
+  "m04_in2": {
+   "s": "SUN",
+   "t": "[cold fire] Unproductive. Poets, grandparents, kids who failed their little test. [weapons spinning up] Vesper Glass, this is the Drift. Nobody grades you today."
+  },
+  "m04_out1": {
+   "s": "YU",
+   "t": "[relieved laughter] Liner's clear! You flew the turret like my uncle plays mahjong — three moves ahead and rude about it!"
+  },
+  "m04_out2": {
+   "s": "ADA",
+   "t": "[thoughtful] Notice what they fear, Sunsarra. Not our guns. Mixed crews, mixed cities — living proof their sorting is a lie. A monoculture always fears the orchard."
+  },
+  "m05_in1": {
+   "s": "TERN",
+   "t": "[measured] Blockade line at Mercury's orbit. Alternative: the corona flare channels. Thermal tolerance: sufficient, briefly. Courage tolerance: unknown."
+  },
+  "m05_in2": {
+   "s": "YU",
+   "t": "[grinning through worry] Shields will sing loud and ugly. Hold the channel centers — and Sunsarra? The Sun doesn't hate you. It doesn't even know you. Fly humble."
+  },
+  "m05_out1": {
+   "s": "SUN",
+   "t": "[awed whisper, shaking] I saw a disabled interceptor drifting into the flare path... [beat] I nudged him clear. Empire pilot. I don't know why I did that."
+  },
+  "m05_out2": {
+   "s": "ADA",
+   "t": "[quiet pride] Yes you do. Because 'enemy' is a uniform and 'person' is a fact. Your mother wrote that in her first paper. You just flew it."
+  },
+  "m05_out3": {
+   "s": "YU",
+   "t": "[soft] She'd be proud, xiǎo Sun. Now let's go make the Empire regret teaching you to fly."
+  },
+  "m06_in1": {
+   "s": "TERN",
+   "t": "[alarm tones] Foundry NADEZHDA burning in the Belt. Sappers hit her reactor row. Escape tugs need fuel we have and time we'll buy."
+  },
+  "m06_in2": {
+   "s": "YU",
+   "t": "[all business] Fire watch, pump watch, transfer watch — you're my hands tonight. Move like water, tap like thunder."
+  },
+  "m06_in3": {
+   "s": "ADA",
+   "t": "[typing furiously] While you weld: I'm inside their 'fitness ledger'. Sunsarra... they score CHILDREN. Spelling tests. Sprint times. [icy] Gould called this the mismeasure of man. I intend to make it famous again."
+  },
+  "m06_out1": {
+   "s": "ADA",
+   "t": "[vindicated, dangerous calm] Decrypted. Their eugenics math cites studies retracted eighty years ago — Lewontin proved most human variation lives WITHIN any population, not between their invented castes. Their empire runs on a rounding error."
+  },
+  "m06_out2": {
+   "s": "SUN",
+   "t": "[slow anger becoming purpose] Then we don't just fight them. We publish them."
+  },
+  "m06_out3": {
+   "s": "YU",
+   "t": "[satisfied, wiping soot] Foundry holds. Tugs away. And the good doctor just loaded ammunition no shield stops."
+  },
+  "m07_in1": {
+   "s": "TERN",
+   "t": "[grim] Convoy jump computers require eleven minutes. Empire wings emerging from Jupiter's radiation shadow. Pattern suggests they will just keep coming."
+  },
+  "m07_in2": {
+   "s": "SUN",
+   "t": "[settling into the turret, steady now] Then we keep being here. Tern, count them in. Yu, keep my capacitors warm. Ada — tell me something true."
+  },
+  "m07_out1": {
+   "s": "ADA",
+   "t": "[over the ringing silence after battle] Something true: every wing they sent flew identical doctrine — cloned training, cloned instincts. You varied. Variation wins. It always has; it's the oldest trick life knows."
+  },
+  "m07_out2": {
+   "s": "YU",
+   "t": "[tired triumph] Convoy's away. Twenty-two of theirs learned humility. Drink your water, hero."
+  },
+  "m08_in1": {
+   "s": "TERN",
+   "t": "[quiet awe despite itself] Saturn's B-ring. Ice mountains, ten meters of clearance, and two lances that believe you will flinch first."
+  },
+  "m08_in2": {
+   "s": "SUN",
+   "t": "[calm smile you can hear] Mom's voice in my head again: small corrections, brave heart. [to the pursuers] Gentlemen — try to keep up."
+  },
+  "m08_out1": {
+   "s": "YU",
+   "t": "[whooping] Both lances ate ice! That last gate — I felt the ring HUM through the hull like a temple bell!"
+  },
+  "m08_out2": {
+   "s": "ADA",
+   "t": "[softly, looking out] A billion years of orbital mechanics made this cathedral, no blueprint, no breeding program. Remember it when Casque talks about 'design'."
+  },
+  "m09_in1": {
+   "s": "TERN",
+   "t": "[hushed] The object is fifty-four kilometers long. Age exceeds the Sun. It is not derelict. It is... patient."
+  },
+  "m09_in2": {
+   "s": "ADA",
+   "t": "[reverent scientist joy] Rotating habitat, alien, ancient — and look: asymmetry EVERYWHERE. Redundant organs, mismatched conduits, glorious improvisation. Whatever built this evolved. It was not optimized. It ENDURED."
+  },
+  "m09_in3": {
+   "s": "YU",
+   "t": "[rolling out tools, delighted] Then it will forgive sloppy welds. Route the power, wake the old girl gently."
+  },
+  "m09_out1": {
+   "s": "TERN",
+   "t": "[processing wonder] The cylinder's archive opened one record for us. A star map... annotated in six hundred iterations of a changing language. They rewrote themselves constantly. They lasted two billion years."
+  },
+  "m09_out2": {
+   "s": "ADA",
+   "t": "[to Sunsarra, gently] Run Gould's tape of life back and play it again — you never get the same melody twice. That's not a flaw in the song, child. That IS the song. Casque wants one note, forever."
+  },
+  "m09_out3": {
+   "s": "SUN",
+   "t": "[quiet, changed] One note forever... Mom used to hum entire symphonies. [resolve] Let's go get the conductor back."
+  },
+  "m10_in1": {
+   "s": "TERN",
+   "t": "[taut] Kuiper post THULE holds a verified voice intercept: Doctor Maren Vex. Alive. Aboard the Ascension Engine. The Empire is sending eighteen blades to silence the proof."
+  },
+  "m10_in2": {
+   "s": "CASQ",
+   "t": "[aristocratic, silken menace, first contact] Miss Vex. High Selector Casque. Your mother is quite comfortable — genius belongs with the Optimal. As, perhaps, do you. Your reflexes test... remarkably. Join your betters, child."
+  },
+  "m10_in3": {
+   "s": "SUN",
+   "t": "[dead calm, deadly] My mother taught me the word for people who rank human beings. [ice] It isn't 'betters'. Guns hot, Tern."
+  },
+  "m10_out1": {
+   "s": "CASQ",
+   "t": "[fraying composure] You defend redundancy. Weakness. Noise in the genome. Why?"
+  },
+  "m10_out2": {
+   "s": "ADA",
+   "t": "[cutting in, magnificent] Because noise is how life sings, Selector. Cavalli-Sforza mapped humanity — we are ONE braided river, not your tidy canals. Your Optimal are a puddle. Puddles evaporate."
+  },
+  "m11_in1": {
+   "s": "TERN",
+   "t": "[moved, if an AI can be] The genebank convoy is loading. Fourteen thousand people your Empire stamped UNFIT: the deaf coder who wrote their escape cipher, the septuagenarian botanists, the twins who fly like weather. They chose their own name — the Variance."
+  },
+  "m11_in2": {
+   "s": "ADA",
+   "t": "[quiet thunder] Le Guin wrote that walls are made of ideas, and ideas of walls. Tonight fourteen thousand ideas walk out of one."
+  },
+  "m11_in3": {
+   "s": "SUN",
+   "t": "[warm command, first time sounding like a captain] Variance convoy, this is Drift on point. Fly YOUR way — weird, brilliant, alive. Gates are lit. Follow me home."
+  },
+  "m11_out1": {
+   "s": "YU",
+   "t": "[laughing, crying a little] Did you SEE them fly? No two ships alike, and the formation still held like a braid!"
+  },
+  "m11_out2": {
+   "s": "ADA",
+   "t": "[triumphant] The clone wings broke pursuit in the shoals — identical pilots, identical mistakes. Diversity just out-flew doctrine, in front of witnesses. Write THAT in a ledger."
+  },
+  "m11_out3": {
+   "s": "SUN",
+   "t": "[steady, bright] TRAPPIST light on fourteen thousand free faces. [beat] One stop left. Hold on, Mom."
+  },
+  "m12_in1": {
+   "s": "TERN",
+   "t": "[gravest tone] The Ascension Engine: Casque's monument at the event horizon, built to 'perfect' a captive generation. Doctor Vex is in the core ring. Ada's broadcast is loaded — it needs ninety seconds and fourteen dead emitters. Station casualties: zero. That is not a constraint. It is the point."
+  },
+  "m12_in2": {
+   "s": "CASQ",
+   "t": "[grand, unhinged serenity] Behold, Miss Vex — gravity's own crucible! Here we distill mankind to its final, flawless form!"
+  },
+  "m12_in3": {
+   "s": "MOM",
+   "t": "[weary, fierce love over a smuggled channel] Sunsarra. My comet. Don't avenge me — FINISH the proof. The truth needs ninety seconds and your terrible, wonderful aim."
+  },
+  "m12_out1": {
+   "s": "TERN",
+   "t": "[soft] Broadcast complete. Every Empire ship, every colony, every school just received Doctor Vex's full dataset... and Doctor Obi's commentary. [beat] The Selector fleet is standing down. Crews are choosing."
+  },
+  "m12_out2": {
+   "s": "CASQ",
+   "t": "[hollow, watching it end] They were promised perfection..."
+  },
+  "m12_out3": {
+   "s": "MOM",
+   "t": "[free, embracing her daughter, voice breaking] They were promised a cage with good lighting. [to Sunsarra] You didn't burn it down, love. You opened it. That's harder. That's ours."
+  },
+  "m12_out4": {
+   "s": "ADA",
+   "t": "[the closing word, gentle and vast] Look back at that pale blue dot, all of you. Every genome that ever loved or reasoned rode that mote of dust together. There are no Optimal. There never were. There is only US — various, unfinished, and magnificent."
+  },
+  "m12_out5": {
+   "s": "SUN",
+   "t": "[quiet, smiling, the arc complete] Rage was my fuel. [to Yu] You were right — it needed a compass. [looking at her mother, her crew] Found one. [beat] Tern — take us home. All of us."
+  },
+  "r_wave1": {
+   "s": "TERN",
+   "t": "[clipped] New contacts on the board."
+  },
+  "r_wave2": {
+   "s": "YU",
+   "t": "[urgent] More of them, incoming hot!"
+  },
+  "r_wave3": {
+   "s": "ADA",
+   "t": "[dry] Company again. Do be rude to them."
+  },
+  "r_low1": {
+   "s": "YU",
+   "t": "[alarmed] Shields are crying, Sun! Break their line of fire!"
+  },
+  "r_low2": {
+   "s": "TERN",
+   "t": "[flat warning] Shield integrity critical."
+  },
+  "r_low3": {
+   "s": "ADA",
+   "t": "[steady] Breathe. Reset. You've survived worse math."
+  },
+  "r_streak1": {
+   "s": "YU",
+   "t": "[whoop] That's my gunner!"
+  },
+  "r_streak2": {
+   "s": "TERN",
+   "t": "[almost impressed] Efficiency noted. Continue."
+  },
+  "r_gate1": {
+   "s": "TERN",
+   "t": "[metronomic] Gate. Clean."
+  },
+  "r_gate2": {
+   "s": "YU",
+   "t": "[delighted] Beautiful line! Next one's lit!"
+  },
+  "r_miss1": {
+   "s": "TERN",
+   "t": "[unbothered] Gate missed. Pursuer closing."
+  },
+  "r_miss2": {
+   "s": "YU",
+   "t": "[wincing] Ooh — tighten it up, they're gaining!"
+  },
+  "r_fix1": {
+   "s": "YU",
+   "t": "[approving] Good hands! Next station!"
+  },
+  "r_fix2": {
+   "s": "TERN",
+   "t": "[status] System restored."
+  },
+  "r_win1": {
+   "s": "TERN",
+   "t": "[warm for a machine] Objective complete. Well flown, Sunsarra."
+  },
+  "r_win2": {
+   "s": "YU",
+   "t": "[joyous] THAT'S how the Drift does it!"
+  },
+  "r_win3": {
+   "s": "ADA",
+   "t": "[satisfied] Add it to the evidence."
+  },
+  "r_fail1": {
+   "s": "TERN",
+   "t": "[gentle] We are still alive. That is a strategy. Again."
+  },
+  "r_fail2": {
+   "s": "YU",
+   "t": "[soft encouragement] Shake it off, xiǎo Sun. The Drift forgives. Again!"
+  }
+ }
+}
