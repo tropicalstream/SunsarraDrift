@@ -67,6 +67,9 @@ class GameRenderer(
     private val hudVp = FloatArray(16)
     private val rgb = FloatArray(3)
     private val portraits = HashMap<String, Int>()
+    private val cinematic = TitleCinematic()
+    private var titleStartMs = System.currentTimeMillis()
+    private var lastPhase = -1
     private var lineAdvanceAt = 0L
 
     // ---------------- lifecycle ----------------
@@ -98,20 +101,34 @@ class GameRenderer(
         lastNs = now
         timeSec += dt
         Game.flash = (Game.flash - dt * 2f).coerceAtLeast(0f)
-        val lbTarget = if (Game.phase == Game.CUTSCENE) 1f else 0f
+        if (Game.phase != lastPhase) {
+            if (Game.phase == Game.TITLE) titleStartMs = System.currentTimeMillis()
+            lastPhase = Game.phase
+        }
+        val lbTarget = if (Game.phase == Game.CUTSCENE || Game.phase == Game.TITLE) 1f else 0f
         letterboxAmt += (lbTarget - letterboxAmt) * (1f - exp(-dt * 4f))
         Game.letterbox = letterboxAmt
 
-        // ship frame
-        val camU = engine.missionU
+        // ship frame — during TITLE the cinematic director drives the camera,
+        // shot-listed to the title song's lyrics (head stays free on top)
+        var camU = engine.missionU
+        var extraYaw = 0f
+        var extraPitch = 0f
+        if (Game.phase == Game.TITLE) {
+            val tSong = (System.currentTimeMillis() - titleStartMs) / 1000f
+            cinematic.update(tSong)
+            camU = cinematic.state.u
+            extraYaw = cinematic.state.yawOff
+            extraPitch = cinematic.state.pitchOff
+        }
         val camPos = engine.railPoint(camU,
-            if (engine.mission.role == Game.ROLE_PILOT) engine.latX else 0f,
-            if (engine.mission.role == Game.ROLE_PILOT) engine.latY else 0f)
+            if (engine.mission.role == Game.ROLE_PILOT && Game.phase == Game.PLAY) engine.latX else 0f,
+            if (engine.mission.role == Game.ROLE_PILOT && Game.phase == Game.PLAY) engine.latY else 0f)
         val tangent = world.tangentAt(camU)
-        val shipYaw = atan2(tangent[0], -tangent[2])
+        val shipYaw = atan2(tangent[0], -tangent[2]) + extraYaw
         val shipPitch = asin(tangent[1].coerceIn(-1f, 1f))
         val yaw = shipYaw + gaze.yaw
-        val pitch = (shipPitch + gaze.pitch).coerceIn(-1.5f, 1.5f)
+        val pitch = (shipPitch + extraPitch + gaze.pitch).coerceIn(-1.5f, 1.5f)
         val dir = floatArrayOf(sin(yaw) * cos(pitch), sin(pitch), -cos(yaw) * cos(pitch))
         val right = norm(cross(dir, floatArrayOf(0f, 1f, 0f)))
 
@@ -175,6 +192,10 @@ class GameRenderer(
         fx.begin()
         emitMissionFx(camPos, shipYaw)
         drawCraft(vp, camPos, sunlight)
+        if (Game.phase == Game.TITLE) {
+            cinematic.emitExtras(fx, craft, vp, camPos, sunlight, world,
+                (System.currentTimeMillis() - titleStartMs) / 1000f)
+        }
         fx.draw(vp)
     }
 
@@ -361,10 +382,18 @@ class GameRenderer(
         when (Game.phase) {
             Game.TITLE -> {
                 val m = Campaign.missions[Game.missionIdx]
+                val tSong = (System.currentTimeMillis() - titleStartMs) / 1000f
                 bigText.setText("SUNSARRA DRIFT", backingBar = false)
-                bigText.draw(par, 0.55f, 0.14f, eyeAspect, 0.85f + 0.15f * sin(timeSec * 3f))
-                cardText.setText("A DAUGHTER. A STOLEN MOTHER.\nAN EMPIRE THAT SORTS PEOPLE.\n\n▶ MISSION ${Game.missionIdx + 1}/${Campaign.missions.size}: ${m.title}\nROLE: ${roleName(m.role)}\n\nSWIPE: CHOOSE MISSION · TAP: LAUNCH\nDOUBLE-TAP: SETTINGS", backingBar = true)
-                cardText.draw(par, -0.25f, 0.34f, eyeAspect, 0.95f)
+                bigText.draw(par, 0.62f, 0.13f, eyeAspect, 0.8f + 0.2f * sin(timeSec * 2f))
+                // karaoke: the film is cut to these lines
+                val lyr = cinematic.lyric(tSong)
+                if (lyr.isNotBlank()) {
+                    captionText.setText("♪ $lyr ♪", backingBar = false)
+                    captionText.draw(par, -0.62f, 0.11f, eyeAspect, 0.95f)
+                }
+                val ca = cinematic.state.cardAlpha
+                cardText.setText("▶ MISSION ${Game.missionIdx + 1}/${Campaign.missions.size}: ${m.title} · ${roleName(m.role)}\nSWIPE: MISSION · TAP: LAUNCH · DOUBLE-TAP: SETTINGS", backingBar = true)
+                cardText.draw(par, -0.86f, 0.10f, eyeAspect, ca)
             }
             Game.BRIEFING -> {
                 val m = engine.mission
