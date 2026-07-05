@@ -22,18 +22,4 @@ abandon). 12 missions retrace the Pale Blue tour route; each is an homage
 (named on the briefing card) to a classic mission from film, print, tabletop
 or games. Win/loss, unlocks, and progress are saved.
 
-## Building the audio/visual assets
-1. **SFX** — already committed (regenerate: `python3 app/tools/generate_sfx.py`).
-2. **Voices** — cast six Fish voices with **VOICE_CASTING.md**, fill
-   `app/tools/fish.config`, then `python3 app/tools/generate_dialogue.py`
-   (82 lines → `assets/voice/`). Captions work before the audio exists.
-3. **Music** — generate with **SUNO_PROMPTS.md**, drop MP3s in `assets/music/`.
-4. **Cutscene portraits** — **GEMINI_CUTSCENES.md**, PNGs in `assets/cutscenes/`.
 
-## Build
-Android Studio (AGP 8.7.3 / Kotlin 2.0.21 / JDK 17) or
-`gradle wrapper --gradle-version 8.9 && ./gradlew assembleDebug`.
-Optional RayNeo AARs in `app/libs/`. Screen touches mirror the temple pad.
-
-## Repo
-Own directory, own git repository, branch **`sunsarra-drift`**.
