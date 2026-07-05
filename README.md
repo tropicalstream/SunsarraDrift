@@ -1,6 +1,6 @@
 # SUNSARRA DRIFT
 
-A first-person spaceship shooter for the **RayNeo X3 Pro**, built on Project
+A very alpha game of a work in progress. A first-person spaceship shooter for the **RayNeo X3 Pro**, built on Project
 Pale Blue's galaxy engine (same planets, HYG starfield, dust, rocks, rails) —
 but this time the solar system is a war you can end with the truth.
 
