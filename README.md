@@ -1,8 +1,6 @@
 # SUNSARRA DRIFT
 
-A very alpha game of a work in progress. A first-person spaceship shooter for the **RayNeo X3 Pro**, built on Project
-Pale Blue's galaxy engine (same planets, HYG starfield, dust, rocks, rails) —
-but this time the solar system is a war you can end with the truth.
+Sunsarra Drift is a first-person spaceship shooter for RayNeo X3 Pro AR glasses, built on the galaxy-rendering engine from Project Pale Blue — the same planets, HYG starfield, dust fields, and rail-based flight. Twelve missions retrace that project's tour of the solar system out to Sagittarius A*, each one an homage to a classic mission from film, print, tabletop games, or video games, as the crew hunts down the Confederate Empire, an interstellar faction of eugenicists who kidnapped the protagonist's mother. The crew mans three interchangeable seats — gunner, pilot, and engineer — each controlled entirely through head aim, a single tap, and a forward/back swipe, with progress, unlocks, and mission outcomes saved between sessions.
 
 ## Screenshots
 
@@ -11,22 +9,16 @@ but this time the solar system is a war you can end with the truth.
   <img src="images/gunner.png" width="45%" alt="Gunner seat HUD tracking a target near a sun">
 </p>
 
-**Story:** Sunsarra Vex hunts the Confederate Empire — kidnappers of her
-mother, preachers of eugenics — from Earth orbit to Sagittarius A*, with Yu
-(Chinese master mechanic) and Dr. Adaeze Obi (Nigerian evolutionary biologist
-who fights their creed with Gould and Lewontin). Le Guin walls, Sagan finale,
-Asimov long game, Clarke artifact. Full bible: **STORY.md**.
+## Controls
 
-## Three seats, three games (head + tap + swipe fwd/back ONLY)
-| Seat | Head | Tap | Swipe fwd/back |
+| Seat | Head | Tap | Swipe forward/back |
 | --- | --- | --- | --- |
-| **GUNNER** | aim reticle | fire | cycle PULSE / MISSILE (lock-on) / EMP |
-| **PILOT** | steer through gates | boost | throttle up / down |
-| **ENGINEER** | look at a station | repair (3 taps) | open/close fuel flow to allies |
+| Gunner | Aim reticle | Fire | Cycle Pulse / Missile (lock-on) / EMP |
+| Pilot | Steer through gates | Boost | Throttle up / down |
+| Engineer | Look at a station | Repair (3 taps) | Open/close fuel flow to allies |
 
-Double-tap = settings (restart, subtitles, volumes, invert steer, recenter,
-abandon). 12 missions retrace the Pale Blue tour route; each is an homage
-(named on the briefing card) to a classic mission from film, print, tabletop
-or games. Win/loss, unlocks, and progress are saved.
+Double-tap opens settings (restart, subtitles, volumes, invert steer, recenter, abandon).
 
+## Download
 
+[SunsarraDrift.apk](SunsarraDrift.apk)
