@@ -4,6 +4,13 @@ A very alpha game of a work in progress. A first-person spaceship shooter for th
 Pale Blue's galaxy engine (same planets, HYG starfield, dust, rocks, rails) —
 but this time the solar system is a war you can end with the truth.
 
+## Screenshots
+
+<p>
+  <img src="images/title.png" width="45%" alt="Sunsarra Drift title screen over a starfield">
+  <img src="images/gunner.png" width="45%" alt="Gunner seat HUD tracking a target near a sun">
+</p>
+
 **Story:** Sunsarra Vex hunts the Confederate Empire — kidnappers of her
 mother, preachers of eugenics — from Earth orbit to Sagittarius A*, with Yu
 (Chinese master mechanic) and Dr. Adaeze Obi (Nigerian evolutionary biologist
